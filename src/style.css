@@ -1,0 +1,144 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+
+}
+header {
+    height:100px;
+    margin-bottom: 23px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    background-color: rgb(194, 129, 140);
+}
+nav {
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+    text-align: right;
+    background-color: rgb(231, 173, 183);
+}
+.title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 37px;
+    color: rgb(255,255,255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav > a {
+    padding: 5px 10px 5px 10px;
+    color: darkmagenta;
+}
+
+nav > a:hover{
+    color: rgba(88, 0, 88, 0.692);
+    background-color: rgba(139, 0, 139, 0.438);
+}
+main {
+    margin-top: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+    background-color: blueviolet;
+}
+main > section {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(168, 104, 228);
+}
+button {
+    width: 80px;
+    height: 75px;
+}
+button > img {
+    text-align: center;
+}
+section {
+    border-radius: 10px;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #4D3A46;
+}
+a {
+    color: cadetblue;
+}
+/*
+
+            slider head
+
+
+*/
+.container_general{
+    height: auto;
+    padding: 20px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: antiquewhite;
+}
+
+.container_slider {
+    gap: 10rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_img img {
+    border-radius: 10px;
+}
+
+.slider_head, .slider_chest, .slider_legs, .slider_foot {
+    opacity: 0;
+    width: auto;
+    position: absolute;
+    transition: opacity .2s;
+}
+.on {
+    opacity: 1;
+
+}
+/*
+            AJUSTE DE ESPAÇAMENTO PARA NÃO BUGAR MANIQUIM
+*/
+#head {
+    margin-bottom: 14%;
+}
+#chest {
+    margin-bottom: 23.5%;
+}
+#legs {
+    margin-bottom: 10%;
+}
+#foot {
+    margin-top: 14%;
+}
+
+/*
+        CONFIGURANDO OS BOTÕES
+*/
+
+#prev_button_head, #next_button_head, #prev_button_chest, #next_button_chest, #next_button_legs, #prev_button_legs, #prev_button_foot, #next_button_foot{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+#prev_button_head, #prev_button_chest, #prev_button_legs, #prev_button_foot {
+    transform: rotate(180deg);
+}
