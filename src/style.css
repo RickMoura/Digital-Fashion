@@ -2,8 +2,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Multani&display=swap');
 
 body {
     background-color: aliceblue;
@@ -11,47 +11,71 @@ body {
 }
 header {
     height:100px;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
     text-align: center;
     padding: 10px 0px 0px 0px;
-    background-color: rgb(194, 129, 140);
+    background-color: #d36eb1c9;
 }
+
 nav {
-    margin-bottom: 10px;
-    display: block;
+    margin: 0;
     padding: 10px;
-    text-align: right;
-    background-color: rgb(231, 173, 183);
+    display: block;
+    text-align: center;
+    background-color: #4D3A46;
 }
 .title {
+    font-size: 37px;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 37px;
     color: rgb(255,255,255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Noto Sans Multani', sans-serif;;
+  
 }
 
 nav > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
     padding: 5px 10px 5px 10px;
-    color: darkmagenta;
 }
 
 nav > a:hover{
-    color: rgba(88, 0, 88, 0.692);
+    color: rgb(255, 255, 255);
     background-color: rgba(139, 0, 139, 0.438);
 }
 main {
-    margin-top: 20px;
+
+
     padding: 20px;
-    margin: auto;
-    width: 700px;
-    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    background-color: #4D233F;
 }
 main > section {
-    width: 600px;
+    width: 600px ;
     margin: auto;
     padding: 10px;
-    background-color: rgb(168, 104, 228);
+    border-radius: 10px;
+    background-color: #975681;
+}
+article > h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;;
+}
+.center {
+    text-align: center;
+}
+#img {
+    margin: 10px auto;
+}
+p {
+    margin: 10px;
+    text-align: justify;
+
+}
+#Maniquim {
+    margin-top: 10px;
 }
 button {
     width: 80px;
@@ -60,8 +84,10 @@ button {
 button > img {
     text-align: center;
 }
-section {
-    border-radius: 10px;
+#back {
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #4D233F;
 }
 footer {
     color: white;
@@ -69,9 +95,13 @@ footer {
     padding: 10px;
     background-color: #4D3A46;
 }
+#contato {
+    text-align: center;
+}
 a {
     color: cadetblue;
 }
+
 /*
 
             slider head
@@ -80,9 +110,13 @@ a {
 */
 .container_general{
     height: auto;
+    margin: auto;
+    width: 550px;
     padding: 20px;
-    border-radius: 10px 0px 10px 0px;
-    background-color: antiquewhite;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #99748D;
 }
 
 .container_slider {
