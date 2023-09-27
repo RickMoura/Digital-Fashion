@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cor01: rgb(255,255,255);
+    --cor02: rgb(87, 71, 105);
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #c7ffedc7;
+}
+.title {
+    font-size: 3em;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: rgb(255,255,255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+nav {
+    padding: 7px;
+    text-align: center;
+    box-shadow: 0px 5px 15px 2px #0000006b;
+
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding-inline: 20px;
+}
+a:hover {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #088a61;
+}
+p {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+article h1 {
+    font-size: 2.5rem;
+    color: rgb(68, 133, 133);
+}
+section {
+
+    width: 680px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 10px;
+    padding-top: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 2px #0000006b;
+}
+.apresentados {
+    margin: auto;
+    width: 600px;
+    height: 530px;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+    box-shadow: 0px 5px 15px 2px #0000006b;
+
+}
+.apresentados p {
+    text-indent: 15px;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+img {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+#barbara, #mariane, #yasmin, #henrique, #antonio, #david, #joao{
+    width: 190px;
+    height: 220px;
+}
+#container p {
+    width: 200px;
+    text-align: justify;
+}
+#container #ultimo {
+    width: auto;
+}
+div {
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+    
+}
+footer {
+    background-image: linear-gradient(90deg,  rgba(104, 255, 255, 0.575),  rgba(48, 102, 102, 0.692));
+}
+
+ footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.contato:hover {
+    background-color: aqua;
+    padding: 4px;
+}

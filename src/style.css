@@ -3,71 +3,85 @@
     margin: 0;
     padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Multani&display=swap');
 
-body {
-    background-color: aliceblue;
 
-}
 header {
-    height:100px;
-    margin-bottom: 20px;
+    padding: 30px;
+    min-width: 420px;
     text-align: center;
-    padding: 10px 0px 0px 0px;
-    background-color: #d36eb1c9;
+    background-color: #c7ffedc7;
+}
+.title {
+    font-size: 3em;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: rgb(255,255,255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
 nav {
-    margin: 0;
-    padding: 10px;
-    display: block;
+    padding: 7px;
     text-align: center;
-    background-color: #4D3A46;
+    box-shadow: 0px 5px 15px 2px #0000006b;
+
 }
 .title {
-    font-size: 37px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    font-size: 3em;
+    font-style: oblique;
+    font-family: sans-serif;
     color: rgb(255,255,255);
-    font-family:'Noto Sans Multani', sans-serif;;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
   
 }
 
 nav > a {
-    color: rgb(255, 255, 255);
+    color: #000;
     text-decoration: none;
-    padding: 5px 10px 5px 10px;
+    padding-inline: 20px;
 }
 
 nav > a:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgba(139, 0, 139, 0.438);
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #088a61;
 }
 main {
-
-
-    padding: 20px;
-    color: white;
+    
+    padding-top: 0;
     text-align: center;
-    background-color: #4D233F;
+
 }
 main > section {
     width: 600px ;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
-    background-color: #975681;
+    box-shadow: 0px 5px 15px 2px #0000006b;
 }
 article > h1 {
     font-size: 45px;
     margin-bottom: 10px;
-    font-family:Arial, Helvetica, sans-serif;;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(68, 133, 133);
+}
+#informacoes {
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 2px #0000006b;
+    padding: 10px;
 }
 .center {
     text-align: center;
 }
 #img {
     margin: 10px auto;
+}
+#manequim {
+    margin-top: 10px;
 }
 p {
     margin: 10px;
@@ -85,18 +99,27 @@ button > img {
     text-align: center;
 }
 #back {
-    padding: 2px;
+    padding: 3px;
     border-radius: 5px;
-    background-color: #4D233F;
+    text-decoration: none;
+    background-color: rgba(0, 255, 255, 0.514);
 }
 footer {
-    color: white;
     text-align: center;
     padding: 10px;
-    background-color: #4D3A46;
+    background-image: linear-gradient(90deg,  rgba(104, 255, 255, 0.575),  rgba(48, 102, 102, 0.692));
+}
+footer a {
+    color: black;
+    text-decoration: none;
 }
 #contato {
     text-align: center;
+}
+.contato:hover {
+    background-color: aqua;
+    padding: 4px;
+    border-radius: 10px;
 }
 a {
     color: cadetblue;
@@ -116,7 +139,8 @@ a {
     margin-bottom: 10px;
     align-items: center;
     border-radius: 10px;
-    background-color: #99748D;
+    background-color: #d89dc559;
+    box-shadow: 0px 5px 15px 2px #0000006b;
 }
 
 .container_slider {
